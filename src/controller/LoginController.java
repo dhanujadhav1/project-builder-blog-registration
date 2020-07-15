@@ -29,7 +29,7 @@ public class LoginController extends HttpServlet {
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		/*	String email = request.getParameter("email"); //  get the email value from the jsp/html page
+			String email = request.getParameter("email"); //  get the email value from the jsp/html page
 		String password = request.getParameter("password"); //  get the password value from the jsp/html page
 
 		ValidateUser validateUser = new ValidateUser();
@@ -44,7 +44,7 @@ public class LoginController extends HttpServlet {
 		
 		
 		
-	*/	
+		
 	}
 
 }
