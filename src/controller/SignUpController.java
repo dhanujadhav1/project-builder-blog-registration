@@ -39,7 +39,7 @@ public class SignUpController extends HttpServlet {
 		String password = request.getParameter("password"); 
 		String confirmPassword = request.getParameter("confirmPassword"); 
 		LocalDateTime date= LocalDateTime.now(); 
-		validq.checkUserDetails(email,password,confirmPassword);
+		//checkUser.checkUserDetails(email,password,confirmPassword);
 
 		
 		if(checkUser.checkUserDetails(email, password, confirmPassword))
